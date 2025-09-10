@@ -39,7 +39,7 @@ python -m venv .venv
 
 # Cài đặt dependencies
 pip install --upgrade pip setuptools wheel
-pip install -r requirements.txt
+pip install -r requirements_win.txt
 ```
 
 #### Cách 2: Sử dụng Anaconda/Miniconda (Khuyến nghị)
@@ -51,7 +51,7 @@ conda create -n kltn_env python=3.10.14
 conda activate kltn_env
 
 # Cài đặt packages
-pip install -r requirements.txt
+pip install -r requirements_win.txt
 
 # Hoặc cài từng package quan trọng
 conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
